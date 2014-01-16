@@ -5,7 +5,7 @@ a
 body 
 {
 	background: #EFEFEF;
-	font-family: arial;
+	font-family: "PT Sans",arial;
 	font-size: 16px;
 	margin: 0;
 }
@@ -44,13 +44,16 @@ header #avatar img
 	float: left;
 	width: 50px;
 }
-header #logo
-{
-	margin: 0;
-}
+
 header #logo img
 {
 	width: 80px;
+}
+footer 
+{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 nav
 {
@@ -135,7 +138,7 @@ nav #publicar_nav a
 {
 	font-size: 1em;
 	font-style: italic;
-	padding: 0.5em 0.5em;
+	padding: 0.5em;
 }
 #contenido .item .titulo_item a
 {
